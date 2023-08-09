@@ -1,0 +1,167 @@
+.contact{
+    position: relative;
+    background-image: url("../image/bg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+    text-align: center;
+    
+  
+}
+
+.contact .overlay{
+    background-color: rgba(0,0, 0,0.8);
+    z-index: 0 !important;
+
+}
+.contact h2{
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: #1C3E7C;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.contact .heading-text{
+    font-size: 14px !important;
+    line-height: 1.6;
+    padding-bottom: 22px;
+}
+
+.contact p{
+    margin-top: 15px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 0.9375rem;
+    letter-spacing: .2px;
+   margin-bottom: 15px;
+}
+
+@media(min-width:768px){
+    .contact .information{
+        text-align: right;
+    }
+}
+.contact .information p{
+    font-weight: 400 !important;
+    font-size: 14px !important; 
+    text-transform: uppercase;
+}
+.contact .information .text-wrap{
+    font-weight: 500!important;
+    font-size: 16px !important;
+}
+
+.contact span,.contact p>i{
+    color: #1C3E7C;
+}
+.contact span.red{
+    color: #E62A32;
+}
+.contact p>i{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 16px;
+}
+.contact a{
+    display: inline-block;
+    color: #fff;
+   text-transform: uppercase;
+    font-weight: 500;
+    font-size: 16px;
+}
+.contact .line{
+    display: block;
+    width: 50px;
+    height: 2px;
+    margin: 10px auto;
+    background-color: #E62A32;
+}
+
+.contact ul{
+    list-style:none;
+    padding: 0 ;
+    z-index: 3;
+    position: relative;
+    
+}
+.contact ul li{
+    display: inline-block;
+    transition: all 0.5s ease-in-out;
+    margin-left: 5px;
+    margin-bottom: 10px;
+    
+}
+
+
+.contact ul li a{
+    display: block;
+    margin: 10px;
+    width: 32px;
+    height: 32px;
+    border-radius: 4px;
+    text-align: center;
+    line-height: 32px;
+    background-color: #1C3E7C;
+    color: white;
+    transform:rotate(-45deg);
+}
+.contact ul li a:hover{
+    background-color: #E62A32;
+}
+.contact ul li i {
+    transform: rotate(45deg);
+}
+.contact input,.contact textarea{
+    background-color: #1C3E7C;
+    border: none;
+    border-radius: 3px;
+    border-bottom: 2px solid rgba(96, 96, 96, 0.7);
+   transition: all 0.5s ease;
+   display: block;
+   width: 100%;
+   padding-top: 9px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-bottom: 10px;
+  
+}
+.contact input:hover,.contact textarea:hover{
+    outline: none;
+    border-bottom: 2px solid #E62A32;
+    background-color: #fff;
+    color: #1C3E7C;
+}
+.contact input:focus,.contact textarea:focus{
+    outline: none;
+    box-shadow: none;
+    border-bottom: 2px solid #1C3E7C;
+    background-color: #fff;
+    color: #1C3E7C;
+}
+.contact input[type="submit"]{
+    float: right;
+    background-color: #fff;
+    color: #555;
+    border: 2px solid #1C3E7C;
+    font-weight: 600;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    line-height: 15px;
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    
+}
+.contact input[type="submit"]:hover{
+    background-color: #1C3E7C;
+    color: #fff;
+    border-color: #fff;
+}
+
+

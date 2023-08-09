@@ -1,0 +1,41 @@
+/*navbar*/
+body{
+    font-family: 'Montserrat', sans-serif  !important;
+}
+.navbar{
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+.navbar-brand{
+    /* color: #333;
+    border: 2px solid #333;
+    padding: 5px;
+    margin-left: 5%; */
+}
+.navbar-brand:hover{
+    color:#fff;
+}
+.navbar ul{
+    margin-right: 10%;
+    list-style-type: none;
+    display: inline-flex;
+}
+.navbar ul li a{
+    color: #333;
+    transition: all .5s ease;
+    margin: 5px;
+}
+.navbar ul li a:hover,.navbar ul li.active a{
+    color: #1C3E7C !important;
+}
+.navbar-toggler:focus{
+     outline: none;
+}
+.navbar-toggler span {
+    color: #333;
+}
+.navbar .hide{
+    display: none;
+}

@@ -1,0 +1,155 @@
+
+
+.skill{
+    position: relative;
+    background-image: url("../image/bg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+  
+}
+
+.skill .overlay{
+    background-color: rgba(250, 250, 250,0.7);
+    z-index: 0 !important;
+
+}
+.skill .skill-desc{
+    z-index: 9;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+
+.skill h2{
+    color: #424242;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.skill span{
+    color: #c69c6d;
+}
+.skill .line{
+    width: 50px;
+    display: block;
+    height: 2px;
+    background-color: #c69c6d;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.skill p{
+    color: #585858;;
+    font-size: 14px;
+    font-weight: 300;
+    
+    margin-top: 10px;
+    
+}
+.skill .langs{
+    border-bottom: 3px solid #c69c6d;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.skill a{
+    background-color: #f4f3f3;
+    color: #606060;
+    padding: 5px 10px;
+    margin-right: 5px;
+    
+}
+.skill a:hover{
+    background-color: #c69c6d;
+    color: white;
+    text-decoration: none;
+}
+.skill a.active{
+    background-color: #c69c6d;
+    color: white;
+    
+}
+.progres{
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.color1{
+    width: 30%;
+    text-align: left;
+    padding-left: 10px;
+    transition: all .7s ease-in-out;
+}
+.color3{
+    background-color: #c69c6d;
+    width: 70%;
+    text-align: right;
+    padding-right: 3px;
+    transition: all .7s ease-in-out;
+}
+.color2{
+    
+    transition: all .7s ease-in-out;
+}
+.progres .gray{
+    background-color: #625958;
+}
+.progres .black{
+    background-color: rgba(80, 70, 69, 0.5);
+}
+
+.skilltwo{
+    position: relative;
+    background-image: url("../image/bg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:white;
+    text-align: center;
+  
+}
+.skilltwo i{
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+.skilltwo h2{
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 5px;
+}
+.skilltwo p{
+    margin-top: 0;
+    font-size: 15px;
+    color: #d7d7d7;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.skilltwo .overlay{
+    background-color: rgba(0, 0, 0,0.8);
+    z-index: 0 !important;
+
+}

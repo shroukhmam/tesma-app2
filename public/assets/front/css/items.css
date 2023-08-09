@@ -1,0 +1,32 @@
+.items .col-md-3{
+background-color: black;
+color: white;
+text-align: center;
+padding: 20px 5px;
+}
+
+.items i{
+    font-size: 4.06rem;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.items h5{
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 0;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+}
+.items p{
+    font-size: .86rem;
+    line-height: 1.6;
+    
+    
+}
+.itembg{
+    background-color: rgba(17, 17, 17, 0.9)!important;
+}
+.row{
+    overflow: inherit!important;
+}

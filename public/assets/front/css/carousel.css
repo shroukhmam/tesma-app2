@@ -1,0 +1,306 @@
+.owl-carousel,.slide{
+    position: relative;
+    height: 600px;
+}
+.overlay{
+    position: absolute;
+    width: 100% !important;
+    height: 100%;
+    top:0;
+    left: 0;
+    background-color: rgba(0,0,0,.6);
+    z-index: 5 !important;
+}
+.slide-point{
+    position: absolute;
+    right: 20px;
+    top: 90%;
+    /* margin-top: 93%; */
+    height: 30px;
+    z-index: 999;
+}
+.slide-point span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    opacity: .5;
+    margin-left: 5px;
+
+}
+.slide-point span:hover,.slide-point span.active{
+    background-color: white;
+    opacity: 1;
+}
+.slide-arrow{
+    width: 30px;
+    position: absolute;
+    top: 50%;
+    /* //margin-top: 50vh; */
+    height: 30px;
+    background-color:#4e4e4e;
+    font-size: 30px;
+    padding-bottom: 50px;
+    z-index: 999;
+    line-height: 40px;
+    transition: all .2s ease;
+}
+.slide-arrow:hover{
+    width: 50px;
+    background-color: white;
+    text-align: center;
+}
+.next{
+    right: 0;
+    text-align: right;
+   
+    
+}
+.prev{
+    left: 0;
+    
+}
+.icon{
+    width: 500px;
+}
+.buttons{
+    margin-top: -92px;
+}
+@media(max-width:768px){
+    .next, .prev{
+        opacity: 0;
+    }
+}
+.digitalAgency,.innovation,.videoAgency,.kernal_info{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+.hide{
+    display: none;
+}
+.block{
+    display: block;
+}
+.digitalAgency{
+    background-image: url(../image/bgn12.jpg);
+   
+    
+}
+.videoAgency{
+    background-image: url("../image/bgn8.jpg");
+ 
+}
+.innovation{
+    background-image: url("../image/bgn23.jpg");
+    
+    
+}
+.kernal_info{
+    background-image: url("../image/bgn30.jpg");
+    
+}
+.digitalAgency>div,.innovation>div,.videoAgency>div,.kernal_info>div{
+    padding: 10px;
+    z-index: 6;
+    padding: 10px;
+    z-index: 6;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+
+}
+@media(min-width:992px){
+    .digitalAgency>div,.innovation>div,.kernal_info>div,.videoAgency>div{
+        width: 50%;
+        text-align: center;
+        left: 25%;
+        
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .digitalAgency>div,.innovation>div,.kernal_info>div,.videoAgency>div{
+        width: 70%;
+        text-align: center;
+        left: 15%;
+        
+    }
+}
+.holder {
+    width: 110px;
+    height: 19px;
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    background: url("../image/after.png") no-repeat;
+}
+
+
+.digitalAgency .title,.innovation .title,.videoAgency .title{
+    font-size:  4.6875rem;
+    letter-spacing: 5px;
+    font-weight: 900;
+
+}
+.kernal_info .title{
+    font-size:  3.2875rem;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+.digitalAgency span{
+    color: #1C3E7C;
+}
+.digitalAgency .slide-title,.videoAgency .slide-title{
+    font-size: 1.625rem;
+    padding-top: 15px;
+    font-weight: 500;
+}
+.digitalAgency .slide-text,.innovation .slide-text,.videoAgency .slide-text{
+    padding-top: 15px;
+    font-size: 0.9375rem;
+    font-weight: 500;
+}
+.digitalAgency .slide-button>a,.videoAgency .slide-button>a,.kernal_info .slide-button>a{
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px 15px 31px;
+    margin: 25px 10px;
+    display: inline-block;
+    border: 2px solid #1C3E7C;
+    transition: all .5s ease;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+@media(max-width:600px)
+{ 
+    .digitalAgency .slide-button>a,.videoAgency .slide-button>a,.kernal_info .slide-button>a{
+             margin: 10px 2px;
+    }
+     .digitalAgency .slide-text,.innovation .slide-text,.videoAgency .slide-text
+    {
+         margin-bottom:15px
+     } 
+     .innovation .title{
+        font-size:  2.6875rem;
+
+      } 
+   
+}
+
+
+
+.digitalAgency .slide-button>a.active,.videoAgency .slide-button>a.active,.kernal_info .slide-button>a.active{
+    background-color: #1C3E7C;
+    border: 2px solid white;
+}
+.digitalAgency .slide-button>a:hover,.videoAgency .slide-button>a:hover,.kernal_info .slide-button>a:hover{
+    background-color: #1C3E7C;
+   
+}
+.videoAgency .title>span{
+    color: white;
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 20px;
+    border: 2px solid white;
+    line-height: 120px;
+    padding-left: 20px;
+    transition: all .5s ease;
+}
+.videoAgency .title>span:hover{
+    border: 2px solid #1C3E7C ;
+    color: #1C3E7C;
+}
+.videojs{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 100px;
+    background-color: rgba(0,0,0,.7);
+    z-index: 9999999;
+    color: white;
+    top: 0;
+    left:0;
+    display: none;
+}
+
+.videojs .icon{
+    position: absolute;
+    top: 80px;
+    right: 13%;    
+}
+.postvideo{
+    position: absolute;
+    width: 70%;
+    overflow: hidden;
+    margin-left: 15%;
+}
+@media(max-width:768px){
+    .postvideo{
+    width: 90%;
+    margin-left: 2%;}
+    .videojs .icon{
+        right: 3%;    
+    }
+}
+
+.slick-slide img {
+    display: block;
+    margin: auto;
+}
+
+@media (min-width:768px){
+    iframe{
+        width: 70%;
+        height: 500px;
+        margin-left: 15%;
+    }
+    .videojs>div{
+        position: absolute;
+        top: 80px;
+        right: 16%;    
+    }
+}
+
+عنصر {
+}
+.btn-down {
+    position: absolute;
+    display: block;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+    width: 25px;
+    height: 35px;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    line-height: 35px;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    transition: all 0.1s ease;
+    z-index: 999;
+}
+
+.btn-down i{
+    color: #fff;
+    font-size: 13px;
+    display: inline-block;
+    transition: all 0.1s ease;
+    
+}

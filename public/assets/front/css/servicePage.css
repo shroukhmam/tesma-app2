@@ -1,0 +1,206 @@
+.servicepageone{
+    padding-top: 20px;
+}
+.servicepageone .description{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.servicepageone h2{
+    color: #424242;
+    font-size: 41px;
+    text-transform: uppercase;
+    line-height: inherit;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.servicepageone h6{
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top:7px;
+    margin-bottom:7px;
+}
+.servicepageone span{
+    color: #c69c6d;
+}
+.servicepageone p{
+    font-size: 14px;
+    color: #585858;
+    margin-bottom: 5px;
+}
+.servicepageone h3{
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.servicepageone a{
+    background-color: #c69c6d;
+    border-color: #fff;
+    color: #fff;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 500;
+    text-transform: uppercase;
+     padding: 15px 30px 15px 31px;
+     border-radius: 30px;
+     letter-spacing: 0.7px;
+     display: block;
+     transition: all ease 0.50s;
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.servicepageone .developement{
+    background-color: #f5f5f5;
+    padding: 30px 30px 25px;
+
+}
+.servicepageone .first{
+    margin-bottom: 30px;
+    text-align:left !important;
+}
+.servicepageone .imageservice{
+    
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+}
+.servicepageone .image1{
+    background-image: url("../image/bg1.jpg");
+}
+.servicepageone .image2{
+    background-image: url("../image/bg3.jpg");
+}
+.servicepageone .image3{
+    background-image: url("../image/bg2.jpg");
+}
+.servicepageone .image4{
+    background-image: url("../image/bgn23.jpg");
+}
+@media(max-width:768px){
+    .imageservice{
+        height: 250px;
+    }
+}
+.servicepageone .large-i{
+    transition: all 0.7s ease;
+    font-size: 150px;
+    line-height: 150px;
+    color: #fff;
+    display: inline-block;
+    height: 100%;
+
+}
+.servicepageone .small-i
+{
+    transition: all 0.7s ease;
+    font-size: 99px;
+    line-height: 99px;
+    color: #fff;
+    height: 100%;
+    text-align: center;
+}
+.imageservice .large-i i{
+    transition: all 0.6s ease;
+    z-index: 4;
+    position: absolute;
+    opacity: 0.5;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+.first:hover .large-i i{
+    position: relative;
+    top: 50%;
+    left: 0;
+    opacity: 1;
+    transform: translateY(-50%);
+}
+.imageservice .small-i i{
+    transition: all 0.6s ease;
+    z-index: 4;
+    position: absolute;
+    opacity: 1;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 100px;
+    transform: translate(-50%,-50%);
+ 
+}
+ 
+.imageservice .large-i:hover{
+    right: 0;
+}
+.servicepagetwo{
+    position: relative;
+    background-image: url("../image/bg3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-top: 50px;
+    color:white;
+    
+  
+}
+
+.servicepagetwo .overlay{
+    background-color: rgba(250, 250, 250,0.7);
+    z-index: 1 !important;
+
+}
+.servicepagetwo h2{
+    color: #424242;
+    font-size: 41px;
+    text-transform: uppercase;
+    line-height: inherit;
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 27px;
+    letter-spacing: 1px;
+}
+.servicepagetwo span{
+    color:#c69c6d;
+}
+.servicepagetwo .line{
+    display: block;
+    background-color: #c69c6d;
+    width:50px;
+    height: 2px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.servicepagetwo p{
+    font-size: 14px;
+    color: #585858;
+    margin-bottom: 10px;
+}
+
+.servicepagetwo .heading-content{
+    margin-bottom: 0;
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 11px 10px 10px 5px;
+
+}
+.servicepagetwo .heading-content.active{
+    border-radius: 2px;
+    cursor: pointer;
+    padding: 11px 10px 10px 5px;
+    background-color: #c69c6d;
+}
+.servicepagetwo .heading-content h3{
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+}
+.servicepagetwo i{
+    margin-left: 7px;
+}

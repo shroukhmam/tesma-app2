@@ -1,0 +1,338 @@
+.service,.servicet{
+    background-image: url(../image/bg2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.service .overlay
+{
+    background-color: rgba(0,0,0,.8);
+    z-index: 1;
+   
+}
+
+.servicet .overlay
+{
+    background-color:rgb(250, 250, 250,0.8);
+    z-index: 1;
+   
+}
+.services{
+    text-align: center;
+    margin-top: 30px;
+   
+}
+.services>*{
+    z-index: 999;
+}
+.service-title{
+    color: #1C3E7C;
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.services span{
+    color: #c69c6d;
+}
+.services .line{
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: #E62A32;
+    margin:20px auto;
+}
+.service-text{
+    font-size: 14px;
+color: #eee;
+
+}
+.service ul.list-service{
+    list-style: none;
+}
+.service .list-service li:before{
+    font-family: FontAwesome;
+    content: "\f192";
+    font-size: 11px;
+    color: #c69c6d;
+    transform: translateY(-4px);
+    margin-right: 10px;
+}
+
+
+.slick-dots{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    padding-left: 0;
+}
+.slick-dots li{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid black;
+    transform: translateX(-50%);
+    margin-left: 6px;
+}
+.slick-dots li.slick-active{
+    background-color: black;
+}
+.slick-dots li button{
+    display: none;
+}
+
+.brand{
+    background-color:#1C3E7C;
+    color: white;
+    padding: 5px;
+    width: 90%!important;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    transition: all .2s ease;
+    padding-top: 30px;
+
+}
+.brand:hover{
+    margin-top: 20px;
+}
+@media(min-width:768px){
+    .brand1{
+        width: 98%!important;
+        padding: 15px 10px;
+        margin-top: 15px;
+        
+    }
+    .brand1:hover{
+        margin-top: 15px;
+    }
+}
+.brand img{
+    opacity: .7;
+}
+.service h3{
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.brand p{
+    color: #c5c5c5;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 0.9px;
+}
+.service .col-md-6{
+    z-index: 999;
+    text-align: left;
+    
+}
+.service .col-md-6 h3{
+    padding-left: 20px;
+}
+.service .col-md-6 p,.service .col-md-6 ul li{
+    font-size: 14px;
+    color: #eee;
+    padding-left: 20px;
+}
+
+.service .row .line{
+    margin-left: 20px;
+    margin-right: 0;
+}
+.link{
+    position: absolute;
+    z-index: 9;
+    color: white;
+    font-size: 14px;
+    bottom: 30px;
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.link:hover{
+    color: #c69c6d;
+    text-decoration: none;
+}
+.servicet-desc>*,.servicet .row>*{
+    z-index: 999;
+    text-align: center;
+}
+.servicet h2{
+    
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+}
+.servicet span{
+    color: #E62A32;
+}
+.servicet .heading-title{
+    font-size: 14px;
+    text-transform: uppercase;
+    color:#424242;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.servicet p{
+    font-size: 14px;
+    color: black;
+    margin-bottom: 0;
+    /* font-family:  sans-serif; */
+    margin-bottom: 50px;
+}
+
+
+.servicet .circle{
+    width: 190px;
+    height: 190px;
+    border: 3px solid rgba(66, 66, 66, 0.47);
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 1s ease-in-out;
+}
+
+@media(min-width:768px){
+    .servicet .after:after{
+        content: "";
+       display: block;
+       width: 70px;
+       height: 1px;
+       border-top: 2px dashed #ccc;
+       position: absolute;
+       right: -37px;
+       top: 28%;
+    }
+}
+.servicet .circle:hover{
+    border: 3px solid #c69c6d;
+}
+.servicet .icon{
+    transition: all 1s ease-in-out;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 90px;
+    height: 90px;
+   background-color:#424242;
+   color: white;
+   font-size: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    
+}
+.servicet .circle:hover .icon{
+    background-color: #c69c6d;
+}
+.servicet h5{
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #555;
+    text-transform: uppercase;
+}
+.big-circle{
+    margin-top: 50%;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    position: relative;
+   
+}
+.row{
+    overflow: hidden;
+}
+
+/*.servicet .dashed{
+    border-bottom: 2px dashed #424242;
+    width: 50px;
+    height: 95px;
+    margin-left: 3px;
+    margin-right: 3px;
+}*/
+
+.servicethree{
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: url(../image/bg1.jpg);
+    position: relative;
+    text-align: center;
+}
+.servicethree p{
+    font-weight: 100;
+    line-height: 1.6;
+    
+    font-size: 18px;
+    color: #eee !important;
+}
+.servicethree .overlaythree{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.9);
+    z-index: 1;;
+
+}
+
+.servicethree .workprogress{
+    text-align: left;
+    z-index: 9;
+    color: white;
+    margin-bottom: 10px;
+    
+}
+.servicethree .workprogress p{
+    font-size: 15px !important;
+}
+
+.servicethree span{
+    color: #c69c6d;
+}
+.servicethree .line{
+    width: 50px;
+    height: 2px;
+    display: block;
+    margin-bottom: 10px;
+    background-color: #E62A32;
+    margin-left: 0;
+}
+.servicethree .icons {
+ z-index: 9;
+ 
+}
+@media(max-width:600px){
+    .servicethree .icons:not(:last-child) {
+        
+        margin-bottom: 10px;
+       }
+}
+.servicethree .icons p{
+    text-transform: uppercase;
+}
+.servicethree .icons i{
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: white;
+}
